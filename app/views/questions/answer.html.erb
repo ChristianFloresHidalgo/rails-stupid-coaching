@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h1 class="card-title"><%= 'User Question'%></h1>
+      <h5 class="card-title"><%= @question%></h5>
+    </div>
+  </div>
+</div>
+
+  <br>
+<div class="container">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <h1 class="card-title"><%= 'Coach answer'%></h1>
+      <p class="card-text"><%= @answer%></p>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="container btn btn-primary">
+  <%= link_to 'Volver a preguntar?', ask_path%>
+</div>
